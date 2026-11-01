@@ -1,0 +1,9 @@
+name = "offline-dontpad"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# Bind a KV namespace called NOTES
+[[kv_namespaces]]
+binding = "NOTES"
+id = "YOUR_KV_NAMESPACE_ID"          # ← replace this after creating KV
+preview_id = "YOUR_KV_NAMESPACE_ID" # same for local preview
