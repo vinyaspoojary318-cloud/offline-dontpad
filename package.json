@@ -1,0 +1,42 @@
+{
+  "name": "offline-dontpad",
+  "version": "1.0.0",
+  "description": "Fully offline Dontpad clone. Path-based notes, auto-save, zero internet required. Just run `dontpad`.",
+  "bin": {
+    "dontpad": "./bin/dontpad.js",
+    "offline-dontpad": "./bin/dontpad.js"
+  },
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node bin/dontpad.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "dontpad",
+    "notepad",
+    "offline",
+    "notes",
+    "local",
+    "cli",
+    "path-based"
+  ],
+  "author": "vinyaspoojary318-cloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinyaspoojary318-cloud/offline-dontpad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinyaspoojary318-cloud/offline-dontpad/issues"
+  },
+  "homepage": "https://github.com/vinyaspoojary318-cloud/offline-dontpad#readme"
+}
